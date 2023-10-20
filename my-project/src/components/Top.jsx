@@ -3,7 +3,7 @@ import mobile from '../assets/images/image-web-3-mobile.jpg'
 
 const Top = () => {
     return (
-      <div className="pt-9 md:pt-16 grid md:grid-cols-3 grid-cols-1 md:grid-rows-2 gap-8">
+      <div className="pt-9 md:pt-16 grid md:grid-cols-3 grid-cols-1 md:grid-rows-1 gap-8">
         <div className=" md:col-span-2 col-span-1 md:order-none order-1">
           <img
             src={desktop}
@@ -52,9 +52,9 @@ const Top = () => {
             </div>
           </div>
         </div>
-        <div className="md:pt-6 md:col-span-2 col-span-1 flex flex-col md:flex-row  md:order-none order-2 ">
+        <div className="md:pt-6 md:h-64 md:col-span-2 col-span-1 flex flex-col md:flex-row  md:order-none order-2 ">
           <div className="md:w-1/2">
-            <h1 className=" md:leading-normal Very-darkblue text-5xl md:text-7xl font-black text-[#00001a]">
+            <h1 className="  Very-darkblue text-5xl md:text-7xl font-black text-[#00001a]">
               The Bright Future of Web 3.0?
             </h1>
           </div>
