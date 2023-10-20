@@ -17,7 +17,7 @@ const Top = () => {
           />
         </div>
         <div className="bg-[#00001a] pr-3 md:pr-0 md:row-span-2 md:order-none order-3 col-span-1 mt-12 md:mt-0 ">
-          <div className="px-4 py-8 md:py-14 md:px-10 w-full h-full flex flex-col justify-between">
+          <div className="px-4 py-8  md:px-10 w-full h-full flex flex-col justify-between">
             <h1 className="text-[#e9ab53] text-3xl md:text-4xl font-bold mb-8 md:mb-0">
               New
             </h1>
@@ -54,7 +54,7 @@ const Top = () => {
         </div>
         <div className="md:pt-6 md:h-64 md:col-span-2 col-span-1 flex flex-col md:flex-row  md:order-none order-2 ">
           <div className="md:w-1/2">
-            <h1 className="  Very-darkblue text-5xl md:text-7xl font-black text-[#00001a]">
+            <h1 className="md:pt-2   Very-darkblue text-5xl md:text-7xl font-black text-[#00001a]">
               The Bright Future of Web 3.0?
             </h1>
           </div>
