@@ -18,7 +18,9 @@ const Top = () => {
         </div>
         <div className="bg-[#00001a] pr-3 md:pr-0 md:row-span-2 md:order-none order-3 col-span-1 mt-12 md:mt-0 ">
           <div className="px-4 py-8 md:py-14 md:px-10 w-full h-full flex flex-col justify-between">
-            <h1 className="text-[#e9ab53] text-3xl md:text-4xl font-bold mb-8 md:mb-0">New</h1>
+            <h1 className="text-[#e9ab53] text-3xl md:text-4xl font-bold mb-8 md:mb-0">
+              New
+            </h1>
             <div className=" pb-10 border-b-2 border-slate-400">
               <h1 className=" cursor-pointer hover:text-[#e9ab53] text-[#fffdfa] text-lg md:text-xl font-bold">
                 Hydrogen VS Electric Cars
@@ -37,7 +39,7 @@ const Top = () => {
                 generation?
               </p>
             </div>
-            <div className='mt-10 md:mt-0'>
+            <div className="mt-10 md:mt-0">
               <h1 className=" cursor-pointer hover:text-[#e9ab53] text-[#fffdfa] text-lg md:text-xl font-bold">
                 {" "}
                 Is VC Funding Drying Up?
@@ -66,7 +68,7 @@ const Top = () => {
               </p>
             </div>
             <div>
-              <button className="px-8 py-4 mt-8 md:mt-0 tracking-widest rounded  font-bold bg-[#f15e50] text-[#fffdfa]  hover:bg-[#00001a]">
+              <button className="px-8 py-4 mt-8 md:mt-0 tracking-widest rounded  font-bold bg-[#f15e50] text-[#fffdfa]  hover:bg-[#00001a] transition-all duration-500 ease-in">
                 READ MORE
               </button>
             </div>
