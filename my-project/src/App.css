@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 3rem 4rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.orange {
+  color:#e9ab53;
+}  
+
+.red {
+  color: #f15e50;
+}  
+
+.Off-white {
+  color: #fffdfa;
+}  
+
+.Grayishblue {
+  color: #c5c6ce;
+}  
+
+.Dark-grayishblue {
+  color: #5d5f79;
+}  
+
+.Very-darkblue {
+  color: #00001a;
+} 
+
+@media (max-width: 767px) {
+  #root {
+    padding: 2rem 1rem;
+  }
+
+    .img {
+      width: 100px;
+      height: 100px;
+  
+      /*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
+      object-fit: scale-down;
+  
+    }
+}
+
