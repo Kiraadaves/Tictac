@@ -31,9 +31,9 @@ const Bottom = () => {
       <div className="flex flex-col md:flex-row mt-20 gap-16">
         {cards.map((card) => (
           <div key={card.id} className="flex gap-8">
-            <div className="">
-              <img src={card.src} alt="card-image" className=" object-cover h-full  "/>
-            </div>
+            
+              <img src={card.src} alt="card-image" className=" object-cover h-auto w-24 "/>
+            
             <div className=" flex flex-col gap-4">
               <h1 className="text-4xl text-[#c5c6ce] font-semibold">
                 {card.number}
